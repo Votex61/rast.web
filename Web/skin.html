@@ -1,0 +1,17 @@
+{% extends "baseWeb.html" %}
+
+
+{% block style %}{% endblock %}
+{% block title %}Skin{% endblock %}
+
+{% block main %}
+    {% for id, title, info, prise, category, url_image in data %}
+        <h1>{{title}} /// {{category}}</h1>
+        <!-- <img src="{{url_image}}"> -->
+        <p>{{prise}}</p>
+        <p>{{info}}</p>
+        <a href="/main">кнопка</a>
+    {% endfor %}
+    
+
+{% endblock %}
