@@ -175,9 +175,9 @@ if __name__ == "__main__":
     # db_del()
     db_create()
     if True:
-        reg_user("name1", "login1", "1111", "name@gmail.com")
-        reg_user("name2", "login2", "1111", "mail2")
-        reg_user("name3", "login3", "1111", "mail3")
+        reg_user("Voter1", "Votex1", "1337", "Voter@gmail.com")
+        reg_user("Voter2", "Votex2", "1337", "Voter@gmail.com")
+        reg_user("Voter3", "Votex3", "1337", "Voter@gmail.com")
 
         add_category("Weapons") # id = 1
         add_category("Deployable") # id = 2
@@ -197,7 +197,97 @@ if __name__ == "__main__":
         add_skin("""Stone Pick Axe from Hell""",
                  """This skin glows in the dark
 
-This is a skin for the Stone Pickaxe item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
+                This is a skin for the Stone Pickaxe item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
                  """2.49$""",
                  1,
                  """https://rustlabs.com/img/skins/324/59105.png""")
+
+
+        add_skin("""Black Diamond Thompson""","""This is a skin for the Thompson item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
+                 """"2.20$""",
+                 1,
+                 """https://wiki.rustclash.com/img/skins/324/58709.png """)
+        
+        add_skin("""Abyss Boots""","""This is a skin for the Boots item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
+                 """1.62$""", 
+                 3,
+                 """https://wiki.rustclash.com/img/skins/324/58604.png""")
+        
+        add_skin("""Toxic Armored Double Door""","""This skin glows in the dark
+                This is a skin for the Armored Double Door item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
+                "$2.90",
+                2,
+                 """ https://wiki.rustclash.com/img/skins/324/58601.png""")
+        
+        add_skin("""Quarantine Garage Door""",
+                """This is a skin for the Garage Door item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
+                """1.59$""",
+                2,
+                """https://wiki.rustclash.com/img/skins/324/58902.png""")
+        
+        add_skin("""Blackguard Facemask""",
+                 """ This is a skin for the Metal Facemask item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
+                 """0.96$""",
+                 3,
+                 """https://wiki.rustclash.com/img/skins/324/58509.png""")
+        
+        add_skin("""Ice Eye Hatchet""",
+                 """This is a skin for the Hatchet item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
+                 """ 1.19$""",
+                 1,
+                 """https://wiki.rustclash.com/img/skins/324/58800.png""")
+        
+        add_skin("""Blinds Rug""",
+                 """This is a skin for the Rug item. You will be able to apply this skin at a repair bench or when you craft the item in game. """,
+                 """2.49$""",
+                 2,
+                 """https://wiki.rustclash.com/img/skins/324/58503.png
+                 """)
+        
+        add_skin("""Watcher of Doom Metal Door""",
+                 """This is a skin for the Sheet Metal Door item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
+                 """1,07$""",
+                 2,
+                 """https://wiki.rustclash.com/img/skins/324/58408.png""")
+        
+        add_skin("""Bullseye LR300""",
+                """Breaks down into 1 x Metal""",
+                """0.91$""",
+                1,
+                """"https://wiki.rustclash.com/img/skins/324/58302.png""")
+        
+        add_skin("""Mr.Craboo Bandana""","""This is a skin for the Bandana Mask item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
+                 """0.64$""",
+                 3,
+                 """https://wiki.rustclash.com/img/skins/324/58107.png""")
+        
+        add_skin("""Mr.Craboo Poncho""",
+                 """ This is a skin for the Hide Poncho item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
+                 """0.92$""",
+                 3,
+                 """https://wiki.rustclash.com/img/skins/324/58106.png""")
+        
+        add_skin("""Red Armored Container Door""",
+                 """This is a skin for the Armored Door item. You will be able to apply this skin at a repair bench or when you craft the item in game. """,
+                 """1.06$""",
+                 2,
+                 """https://wiki.rustclash.com/img/skins/324/56800.png""",) 
+        
+        
+        
+
+        
+        
+
+
+
+
+
+
+
+        
+        
+
+                
+
+         
