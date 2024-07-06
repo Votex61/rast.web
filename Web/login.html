@@ -5,11 +5,27 @@
 {% block title %}Login{% endblock %}
 
 {% block main %}
-<h1> Вход в аккаунт</h1>    
+
 <form method="post" action="/login">
-    <p>Login: <input type="text" id="username" name="login"></p>
-    <p>Password: <input type="password" id="pass" name="password"></p>
-    <p><a href="/registration">Sign up</a></p>
-    <p><input type="submit" value="Вход"></p>
-</form>
+    <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+    <div class="form-floating">
+      <input type="login" name="login" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <label for="floatingInput">Login</label>
+    </div>
+    <div class="form-floating">
+      <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password">
+      <label for="floatingPassword">Password</label>
+    </div>
+
+    <div class="form-check text-start my-3">
+        <a href="/registration">
+            <label class="form-check-label" for="flexCheckDefault">
+                Sign up
+            </label>
+        </a>
+    </div>
+    <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button>
+  </form>
+
 {% endblock %}
