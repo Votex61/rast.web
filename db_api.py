@@ -274,6 +274,88 @@ if __name__ == "__main__":
                  2,
                  """https://wiki.rustclash.com/img/skins/324/56800.png""",) 
         
+        add_skin("""Serpent AR""",""""This is a skin for the Assault Rifle item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
+                 
+        """0.99$""",
+        1,
+        """https://wiki.rustclash.com/img/skins/324/57407.png""")
+
+        add_skin("""Valentine's Gift Sleeping Bag""","""This is a skin for the Sleeping Bag item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
+                 
+        """1.36$""",
+        2,
+        """https://wiki.rustclash.com/img/skins/324/57111.png""")
+
+        add_skin("""Abyss Roadsign Gloves""","""This is a skin for the Roadsign Gloves item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
+                 
+        """4.58$""",
+        3,
+        """https://wiki.rustclash.com/img/skins/324/56710.png""")
+
+        add_skin("""Pirate Large Box""","""This is a skin for the Large Wood Box item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
+                 
+        """1.60$""",
+        2,
+        """https://wiki.rustclash.com/img/skins/324/56604.png""")
+
+        add_skin("""Pirate Facemask""","""This is a skin for the Metal Facemask item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
+                 
+        """1.87$""",
+        3,
+        """https://wiki.rustclash.com/img/skins/324/53505.png""")
+
+        add_skin("""Pirate Chestplate""","""This is a skin for the Metal Chest Plate item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
+                 
+        """1.08$""",
+        3,
+        """https://wiki.rustclash.com/img/skins/324/53504.png""")
+
+        add_skin("""Abyss Facemask""","""This is a skin for the Metal Facemask item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
+                 
+        """1.08$""",
+        3,
+        """https://wiki.rustclash.com/img/skins/324/54301.png""")
+
+        add_skin("""Prototype 7164 Thompson""","""This is a skin for the Thompson item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
+                 
+        """1.68$""",
+        1,
+        """https://wiki.rustclash.com/img/skins/324/59000.png""")
+
+        
+        add_skin("""Prototype 7164 Thompson""","""This is a skin for the Thompson item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
+                 
+        """1.68$""",
+        1,
+        """https://wiki.rustclash.com/img/skins/324/59000.png""")
+
+
+
+        
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+                      
+        
+        
         
         
 
