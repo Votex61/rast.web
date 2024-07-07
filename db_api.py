@@ -322,12 +322,65 @@ if __name__ == "__main__":
         1,
         """https://wiki.rustclash.com/img/skins/324/59000.png""")
 
-        
-        add_skin("""Prototype 7164 Thompson""","""This is a skin for the Thompson item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
+        add_skin("""UAP Pilot Satchel""","""2 05 20 21 19 09 14, 23 05 07 15 02 15 15 13 This is a skin for the Satchel Charge item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
                  
-        """1.68$""",
+        """1.41$""",
+        3,
+        """https://wiki.rustclash.com/img/skins/324/55306.png""")
+
+        add_skin("""Pug Rock""","""This is a skin for the Rock item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
+                 
+        """3.91$""",
         1,
-        """https://wiki.rustclash.com/img/skins/324/59000.png""")
+        """https://wiki.rustclash.com/img/skins/324/55009.png""")
+
+        add_skin("""Abyss Garage Door""","""This is a skin for the Garage Door item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
+                 
+        """2.70$""",
+        2,
+        """https://wiki.rustclash.com/img/skins/324/52204.png""")
+
+        add_skin("""Comics Jackhammer""","""This is a skin for the Jackhammer item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
+                 
+        """7.03$""",
+        1,
+        """https://wiki.rustclash.com/img/skins/324/48107.png""")
+
+        add_skin("""KNOCK KNOCK""","""This is a skin for the Rocket Launcher item. You will be able to apply this skin when you craft the item in game.""",
+                 
+        """458.46$""",
+        1,
+        """https://wiki.rustclash.com/img/skins/324/21115.png""")
+
+        add_skin("""Azul L96""","""This is a skin for the L96 Rifle item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
+                 
+        """1.14$""",
+        1,
+        """https://wiki.rustclash.com/img/skins/324/54505.png""")
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+       
+        
+       
 
 
 
