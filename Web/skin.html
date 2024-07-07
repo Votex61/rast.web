@@ -6,11 +6,24 @@
 
 {% block main %}
     {% for id, title, info, prise, category, url_image in data %}
-        <h1>{{title}} /// {{category}}</h1>
-        <!-- <img src="{{url_image}}"> -->
-        <p>{{prise}}</p>
-        <p>{{info}}</p>
-        <a href="/main">кнопка</a>
+
+        <div class="px-4 pt-5 my-5 text-center border-bottom">
+            <div class="overflow-hidden">
+                <div class="container px-5">
+                  <img src="{{url_image}}" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="400" height="400" loading="lazy">
+                </div>
+              </div>
+
+            <h1 class="display-4 fw-bold text-body-emphasis">{{title}}</h1>
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">{{info}}</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                <button type="button" class="btn btn-outline-secondary btn-lg px-4">{{category}}</button>
+                <button type="button" class="btn btn-outline-secondary btn-lg px-4">{{prise}}</button>
+              </div>
+            </div>
+            
+          </div>
     {% endfor %}
     
 

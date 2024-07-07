@@ -7,14 +7,43 @@
 
 {% block main %}
     
-    <h1> Вы зашли на Main </h1> 
-    {% for id, title in category %}
-    <a href="/main/category/{{id}}">{{title}}</a>///
-    {% endfor %}
-    {% for id, title, info, prise, id_category, url_image in data %}
-        <p>{{title}}</p> 
-        <p><a href="/skin/{{id}}">кнопка</a></p>
-        <p>===============================================</p> 
-    {% endfor %}
+    <div class="container">
+        <header class="d-flex justify-content-center py-3">
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="/main/category/{{id}}" class="nav-link" aria-current="page">All</a></li>
+            {% for id, title in category %}
+                <li class="nav-item"><a href="/main/category/{{id}}" class="nav-link" aria-current="page">{{title}}</a></li>
+            {% endfor %}
+          </ul>
+        </header>
+      </div>
+
+
+    <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+    
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            {% for id, title, info, prise, id_category, url_image in data %}
+                <a href="/skin/{{id}}">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" width="400px" height="400px" src="{{url_image}}">
+                            <div class="card-body">
+                            
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <p class="card-text">{{title}}</p>
+                                </div>
+                                <small class="text-body-secondary">{{prise}}</small>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            {% endfor %}
+          </div>
+        </div>
+    </div>
+
 
 {% endblock %}

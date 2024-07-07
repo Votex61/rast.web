@@ -172,12 +172,12 @@ def get_form_category_skin(id_category:int):
 
 #===================================== create ===================================================
 if __name__ == "__main__":
-    # db_del()
+    db_del()
     db_create()
     if True:
-        reg_user("Voter1", "Votex1", "1337", "Voter@gmail.com")
-        reg_user("Voter2", "Votex2", "1337", "Voter@gmail.com")
-        reg_user("Voter3", "Votex3", "1337", "Voter@gmail.com")
+        reg_user("Voter1", "Votex1", "1337", "Voter1@gmail.com")
+        reg_user("Voter2", "Votex2", "1337", "Voter2@gmail.com")
+        reg_user("Voter3", "Votex3", "1337", "Voter3@gmail.com")
 
         add_category("Weapons") # id = 1
         add_category("Deployable") # id = 2
@@ -188,19 +188,20 @@ if __name__ == "__main__":
                  """This is a skin for the Roadsign Gloves item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
                  """0.99$""",
                  3,
-                 "https://rustlabs.com/img/skins/324/59107.png")
+                 "https://wiki.rustclash.com/img/skins/324/59107.png")
+        
         add_skin("""Royal Safari AR""",
                  """This is a skin for the Assault Rifle item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
                  """3.49$""",
                  1,
-                 """https://rustlabs.com/img/skins/324/59108.png""")
+                 """https://wiki.rustclash.com/img/skins/324/59108.png""")
         add_skin("""Stone Pick Axe from Hell""",
                  """This skin glows in the dark
 
                 This is a skin for the Stone Pickaxe item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
                  """2.49$""",
                  1,
-                 """https://rustlabs.com/img/skins/324/59105.png""")
+                 """https://wiki.rustclash.com/img/skins/324/59105.png""")
 
 
         add_skin("""Black Diamond Thompson""","""This is a skin for the Thompson item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
@@ -217,7 +218,7 @@ if __name__ == "__main__":
                 This is a skin for the Armored Double Door item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
                 "$2.90",
                 2,
-                 """ https://wiki.rustclash.com/img/skins/324/58601.png""")
+                 """https://wiki.rustclash.com/img/skins/324/58601.png""")
         
         add_skin("""Quarantine Garage Door""",
                 """This is a skin for the Garage Door item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
@@ -254,7 +255,7 @@ if __name__ == "__main__":
                 """Breaks down into 1 x Metal""",
                 """0.91$""",
                 1,
-                """"https://wiki.rustclash.com/img/skins/324/58302.png""")
+                """https://wiki.rustclash.com/img/skins/324/58302.png""")
         
         add_skin("""Mr.Craboo Bandana""","""This is a skin for the Bandana Mask item. You will be able to apply this skin at a repair bench or when you craft the item in game.""",
                  """0.64$""",
